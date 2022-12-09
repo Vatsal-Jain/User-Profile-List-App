@@ -1,0 +1,105 @@
+.a1 {
+  align-items: center;
+  justify-content: center;
+  background-color: #d8dbe12d;
+}
+
+.crx {
+  width: 255px;
+  height: 330px;
+  margin: 1.5rem;
+
+  position: relative;
+
+  overflow: hidden;
+  border: 1px solid silver;
+  cursor: pointer;
+}
+
+.crx .a1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 160px;
+}
+
+.crx .a1 img {
+  max-width: 150px;
+  max-height: 180px;
+}
+
+.crx .a2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.a2 h3 {
+  font-family: "Roboto Slab", serif;
+  color: #000000;
+  font-size: 15px;
+}
+
+.a2 span {
+  font-size: 13px;
+
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #0f0e0ea9;
+}
+
+.a1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.a1 {
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footercard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+
+  align-items: center;
+}
+
+.footer {
+  align-items: center;
+  margin-top: 10px;
+  border-top: 1px solid #d6d9dc;
+  background-color: #d8dbe12d;
+  bottom: 0;
+  height: 120px;
+  width: 255px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: row;
+}
+.modalright {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.modalright p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.modalright p Input {
+  width: 400;
+  left: 10px;
+}
